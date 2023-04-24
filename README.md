@@ -5,7 +5,7 @@ This is a python decoder for BTMETER BT-90EPC (and others) implemented by Kevin 
 The [BTMeter](https://www.amazon.com/BTMETER-Multimeter-Auto-Ranging-Resistance-Measuring/dp/B07C238GTP/ref=asc_df_B07C238GTP/?tag=hyprod-20&linkCode=df0&hvadid=242027088707&hvpos=&hvnetw=g&hvrand=3103974879487195685&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9019670&hvtargid=pla-523440179742&th=1) is an inexpensive multimeter that provides a RS232 mechanism via a USB FTDI cable. The meter speaks an RS232 protocol that correlates bits to the various LCD segments.
 ![btmeter](btmeter.jpg)
 ## Reference material
-There is a windows application, but I had no windows machine for testing so I used trial an error and then was eventually abel to make sense of the 
+There is a windows application, but I had no windows machine for testing so I used trial an error and then was eventually able to make sense of the 
 brief [description of the protocol](https://asset.conrad.com/media10/add/160267/c1/-/en/000123295DS01/datasheet-123295-voltcraft-vc-840-digital-multimeter-4000-counts.pdf) provided by voltcraft.
 
 ## "Message" format
