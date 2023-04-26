@@ -101,3 +101,16 @@ I specifically purchased the BTMeter as an inexpensive way to "log" measurements
 Advanced instruments like an Analog Discovery 2 also provide good telemetry but there are many situations where leaving one for logging might not be viable.
 
 In addition to the BTMeter, several instruments are also available such as a clamp AC/DC ammeter.
+
+## Usage
+```
+usage: meter.py [-h] [--port PORT] [--baud BAUD] [--samples SAMPLES]
+
+Decode RS232 Voltcraft protocol.
+
+options:
+  -h, --help         show this help message and exit
+  --port PORT        Serial port to read from
+  --baud BAUD        Baud rate to use
+  --samples SAMPLES  Number of readings to take
+```
